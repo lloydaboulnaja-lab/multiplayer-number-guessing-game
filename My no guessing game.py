@@ -128,6 +128,6 @@ def play():
     if not game_won:
         print(f"\nNobody won! The number was {random_num}.")
         after_play()
-       
-               
-main_menu()             
+        
+if __name__ == "__main__":                      
+    main_menu()             
