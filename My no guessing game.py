@@ -36,10 +36,10 @@ def start():
 def main_menu(): #Main menu interface
     global num_players
     global name_list
-    print("\n=======================================")
+    print("\n="*39)
     print("== WELCOME TO A NUMBER GUESSING GAME ==")
     print("======= 1.[PLAY] 2.[EXIT] =============")
-    print("=======================================")
+    print("="*39)
     while True:
       main_menu = input("Make a choice from the options above (1-2): ")
       if main_menu.strip() == "":
