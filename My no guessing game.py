@@ -30,7 +30,7 @@ def start():
             name_list.append(names_entry)
             player_counter = player_counter - 1
         if player_counter == 0:
-            print(f"The players are: {name_list}.")
+            print(f"The players are: ",*name_list)
             break
 
 def main_menu(): #Main menu interface
